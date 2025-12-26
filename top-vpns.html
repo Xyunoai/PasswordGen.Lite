@@ -19,7 +19,18 @@ header { text-align:center; font-size:2rem; font-weight:bold; margin:30px 0; }
 .note { font-size:0.85rem; color:#666; text-align:center; margin-top:25px; font-style:italic; }
 </style>
 </head>
-<body>
+<body><!-- PassBot HTML -->
+<div id="passbotSidebar">
+  <div id="passbotHeader">
+    <h3>PassBot</h3>
+    <span id="passbotClose">&times;</span>
+  </div>
+  <div id="passbotMessages"></div>
+  <input type="text" id="passbotInput" placeholder="Ask a password/safety question...">
+</div>
+<button id="passbotBtn">💬</button>
+
+<script src="js/passbot.js"></script>
 
 <nav>
   <a href="index.html">Home</a>
